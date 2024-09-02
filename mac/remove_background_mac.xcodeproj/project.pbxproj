@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9824D8412C7D6DD900F9ED13 /* TensorFlowModel.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9824D8402C7D6DD900F9ED13 /* TensorFlowModel.mm */; };
+		9824D9072C7DB20800F9ED13 /* libtensorflow_framework.2.13.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9824D9002C7DB20800F9ED13 /* libtensorflow_framework.2.13.0.dylib */; };
+		9824D9082C7DB20800F9ED13 /* libtensorflow_framework.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9824D9012C7DB20800F9ED13 /* libtensorflow_framework.2.dylib */; };
+		9824D9092C7DB20800F9ED13 /* libtensorflow_framework.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9824D9022C7DB20800F9ED13 /* libtensorflow_framework.dylib */; };
+		9824D90A2C7DB20800F9ED13 /* libtensorflow.2.13.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9824D9032C7DB20800F9ED13 /* libtensorflow.2.13.0.dylib */; };
+		9824D90B2C7DB20800F9ED13 /* libtensorflow.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9824D9042C7DB20800F9ED13 /* libtensorflow.2.dylib */; };
+		9824D90C2C7DB20800F9ED13 /* libtensorflow.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9824D9052C7DB20800F9ED13 /* libtensorflow.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
+		9824D9642C7EBDB000F9ED13 /* tf_u2netp in Resources */ = {isa = PBXBuildFile; fileRef = 9824D9632C7EBDAF00F9ED13 /* tf_u2netp */; };
+		9824E6482C7C545000F9ED13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9824E6472C7C545000F9ED13 /* AppDelegate.m */; };
+		9824E64A2C7C545300F9ED13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9824E6492C7C545300F9ED13 /* Assets.xcassets */; };
+		9824E64D2C7C545300F9ED13 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9824E64C2C7C545300F9ED13 /* Base */; };
+		9824E64F2C7C545300F9ED13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9824E64E2C7C545300F9ED13 /* main.m */; };
+		9824E65B2C7C57CC00F9ED13 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9824E65A2C7C57CC00F9ED13 /* MainView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9824D8A22C7DAB2C00F9ED13 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9824D8A32C7DAB8A00F9ED13 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9824D83F2C7D6DD900F9ED13 /* TensorFlowModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TensorFlowModel.h; sourceTree = "<group>"; };
+		9824D8402C7D6DD900F9ED13 /* TensorFlowModel.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = TensorFlowModel.mm; sourceTree = "<group>"; };
+		9824D9002C7DB20800F9ED13 /* libtensorflow_framework.2.13.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libtensorflow_framework.2.13.0.dylib; sourceTree = "<group>"; };
+		9824D9012C7DB20800F9ED13 /* libtensorflow_framework.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libtensorflow_framework.2.dylib; sourceTree = "<group>"; };
+		9824D9022C7DB20800F9ED13 /* libtensorflow_framework.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libtensorflow_framework.dylib; sourceTree = "<group>"; };
+		9824D9032C7DB20800F9ED13 /* libtensorflow.2.13.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libtensorflow.2.13.0.dylib; sourceTree = "<group>"; };
+		9824D9042C7DB20800F9ED13 /* libtensorflow.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libtensorflow.2.dylib; sourceTree = "<group>"; };
+		9824D9052C7DB20800F9ED13 /* libtensorflow.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libtensorflow.dylib; sourceTree = "<group>"; };
+		9824D90D2C7DB21A00F9ED13 /* c_api_experimental.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c_api_experimental.h; sourceTree = "<group>"; };
+		9824D90E2C7DB21A00F9ED13 /* c_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c_api.h; sourceTree = "<group>"; };
+		9824D90F2C7DB21A00F9ED13 /* dlpack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dlpack.h; sourceTree = "<group>"; };
+		9824D9112C7DB21A00F9ED13 /* c_api_experimental.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c_api_experimental.h; sourceTree = "<group>"; };
+		9824D9122C7DB21A00F9ED13 /* c_api_macros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c_api_macros.h; sourceTree = "<group>"; };
+		9824D9132C7DB21A00F9ED13 /* c_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c_api.h; sourceTree = "<group>"; };
+		9824D9142C7DB21A00F9ED13 /* tensor_interface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tensor_interface.h; sourceTree = "<group>"; };
+		9824D9152C7DB21A00F9ED13 /* tf_attrtype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tf_attrtype.h; sourceTree = "<group>"; };
+		9824D9162C7DB21A00F9ED13 /* tf_buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tf_buffer.h; sourceTree = "<group>"; };
+		9824D9172C7DB21A00F9ED13 /* tf_datatype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tf_datatype.h; sourceTree = "<group>"; };
+		9824D9182C7DB21A00F9ED13 /* tf_file_statistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tf_file_statistics.h; sourceTree = "<group>"; };
+		9824D9192C7DB21A00F9ED13 /* tf_status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tf_status.h; sourceTree = "<group>"; };
+		9824D91A2C7DB21A00F9ED13 /* tf_tensor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tf_tensor.h; sourceTree = "<group>"; };
+		9824D91B2C7DB21A00F9ED13 /* tf_tstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tf_tstring.h; sourceTree = "<group>"; };
+		9824D91D2C7DB21A00F9ED13 /* ctstring_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ctstring_internal.h; sourceTree = "<group>"; };
+		9824D91E2C7DB21A00F9ED13 /* ctstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ctstring.h; sourceTree = "<group>"; };
+		9824D9212C7DB21A00F9ED13 /* tsl_status.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tsl_status.h; sourceTree = "<group>"; };
+		9824D9232C7DB21A00F9ED13 /* ctstring_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ctstring_internal.h; sourceTree = "<group>"; };
+		9824D9242C7DB21A00F9ED13 /* ctstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ctstring.h; sourceTree = "<group>"; };
+		9824D9632C7EBDAF00F9ED13 /* tf_u2netp */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tf_u2netp; sourceTree = "<group>"; };
+		9824E6432C7C545000F9ED13 /* remove_background_mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = remove_background_mac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9824E6462C7C545000F9ED13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9824E6472C7C545000F9ED13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9824E6492C7C545300F9ED13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9824E64C2C7C545300F9ED13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9824E64E2C7C545300F9ED13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9824E6502C7C545300F9ED13 /* remove_background_mac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = remove_background_mac.entitlements; sourceTree = "<group>"; };
+		9824E6592C7C57CC00F9ED13 /* MainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		9824E65A2C7C57CC00F9ED13 /* MainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9824E6402C7C545000F9ED13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9824D9082C7DB20800F9ED13 /* libtensorflow_framework.2.dylib in Frameworks */,
+				9824D90B2C7DB20800F9ED13 /* libtensorflow.2.dylib in Frameworks */,
+				9824D9092C7DB20800F9ED13 /* libtensorflow_framework.dylib in Frameworks */,
+				9824D90A2C7DB20800F9ED13 /* libtensorflow.2.13.0.dylib in Frameworks */,
+				9824D9072C7DB20800F9ED13 /* libtensorflow_framework.2.13.0.dylib in Frameworks */,
+				9824D90C2C7DB20800F9ED13 /* libtensorflow.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9824D8FD2C7DB19100F9ED13 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				9824D9282C7DB21A00F9ED13 /* include */,
+				9824D9062C7DB20800F9ED13 /* lib */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		9824D9062C7DB20800F9ED13 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				9824D9002C7DB20800F9ED13 /* libtensorflow_framework.2.13.0.dylib */,
+				9824D9012C7DB20800F9ED13 /* libtensorflow_framework.2.dylib */,
+				9824D9022C7DB20800F9ED13 /* libtensorflow_framework.dylib */,
+				9824D9032C7DB20800F9ED13 /* libtensorflow.2.13.0.dylib */,
+				9824D9042C7DB20800F9ED13 /* libtensorflow.2.dylib */,
+				9824D9052C7DB20800F9ED13 /* libtensorflow.dylib */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		9824D9102C7DB21A00F9ED13 /* eager */ = {
+			isa = PBXGroup;
+			children = (
+				9824D90D2C7DB21A00F9ED13 /* c_api_experimental.h */,
+				9824D90E2C7DB21A00F9ED13 /* c_api.h */,
+				9824D90F2C7DB21A00F9ED13 /* dlpack.h */,
+			);
+			path = eager;
+			sourceTree = "<group>";
+		};
+		9824D91C2C7DB21A00F9ED13 /* c */ = {
+			isa = PBXGroup;
+			children = (
+				9824D9102C7DB21A00F9ED13 /* eager */,
+				9824D9112C7DB21A00F9ED13 /* c_api_experimental.h */,
+				9824D9122C7DB21A00F9ED13 /* c_api_macros.h */,
+				9824D9132C7DB21A00F9ED13 /* c_api.h */,
+				9824D9142C7DB21A00F9ED13 /* tensor_interface.h */,
+				9824D9152C7DB21A00F9ED13 /* tf_attrtype.h */,
+				9824D9162C7DB21A00F9ED13 /* tf_buffer.h */,
+				9824D9172C7DB21A00F9ED13 /* tf_datatype.h */,
+				9824D9182C7DB21A00F9ED13 /* tf_file_statistics.h */,
+				9824D9192C7DB21A00F9ED13 /* tf_status.h */,
+				9824D91A2C7DB21A00F9ED13 /* tf_tensor.h */,
+				9824D91B2C7DB21A00F9ED13 /* tf_tstring.h */,
+			);
+			path = c;
+			sourceTree = "<group>";
+		};
+		9824D91F2C7DB21A00F9ED13 /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				9824D91D2C7DB21A00F9ED13 /* ctstring_internal.h */,
+				9824D91E2C7DB21A00F9ED13 /* ctstring.h */,
+			);
+			path = platform;
+			sourceTree = "<group>";
+		};
+		9824D9202C7DB21A00F9ED13 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				9824D91F2C7DB21A00F9ED13 /* platform */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		9824D9222C7DB21A00F9ED13 /* c */ = {
+			isa = PBXGroup;
+			children = (
+				9824D9212C7DB21A00F9ED13 /* tsl_status.h */,
+			);
+			path = c;
+			sourceTree = "<group>";
+		};
+		9824D9252C7DB21A00F9ED13 /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				9824D9232C7DB21A00F9ED13 /* ctstring_internal.h */,
+				9824D9242C7DB21A00F9ED13 /* ctstring.h */,
+			);
+			path = platform;
+			sourceTree = "<group>";
+		};
+		9824D9262C7DB21A00F9ED13 /* tsl */ = {
+			isa = PBXGroup;
+			children = (
+				9824D9222C7DB21A00F9ED13 /* c */,
+				9824D9252C7DB21A00F9ED13 /* platform */,
+			);
+			path = tsl;
+			sourceTree = "<group>";
+		};
+		9824D9272C7DB21A00F9ED13 /* tensorflow */ = {
+			isa = PBXGroup;
+			children = (
+				9824D91C2C7DB21A00F9ED13 /* c */,
+				9824D9202C7DB21A00F9ED13 /* core */,
+				9824D9262C7DB21A00F9ED13 /* tsl */,
+			);
+			path = tensorflow;
+			sourceTree = "<group>";
+		};
+		9824D9282C7DB21A00F9ED13 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				9824D9272C7DB21A00F9ED13 /* tensorflow */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		9824E63A2C7C545000F9ED13 = {
+			isa = PBXGroup;
+			children = (
+				9824E6452C7C545000F9ED13 /* remove_background_mac */,
+				9824E6442C7C545000F9ED13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9824E6442C7C545000F9ED13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9824E6432C7C545000F9ED13 /* remove_background_mac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9824E6452C7C545000F9ED13 /* remove_background_mac */ = {
+			isa = PBXGroup;
+			children = (
+				9824D9632C7EBDAF00F9ED13 /* tf_u2netp */,
+				9824D8FD2C7DB19100F9ED13 /* libs */,
+				9824E6462C7C545000F9ED13 /* AppDelegate.h */,
+				9824E6472C7C545000F9ED13 /* AppDelegate.m */,
+				9824E6492C7C545300F9ED13 /* Assets.xcassets */,
+				9824E64B2C7C545300F9ED13 /* MainMenu.xib */,
+				9824E64E2C7C545300F9ED13 /* main.m */,
+				9824E6502C7C545300F9ED13 /* remove_background_mac.entitlements */,
+				9824E6592C7C57CC00F9ED13 /* MainView.h */,
+				9824E65A2C7C57CC00F9ED13 /* MainView.m */,
+				9824D83F2C7D6DD900F9ED13 /* TensorFlowModel.h */,
+				9824D8402C7D6DD900F9ED13 /* TensorFlowModel.mm */,
+			);
+			path = remove_background_mac;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9824E6422C7C545000F9ED13 /* remove_background_mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9824E6532C7C545400F9ED13 /* Build configuration list for PBXNativeTarget "remove_background_mac" */;
+			buildPhases = (
+				9824E63F2C7C545000F9ED13 /* Sources */,
+				9824E6402C7C545000F9ED13 /* Frameworks */,
+				9824E6412C7C545000F9ED13 /* Resources */,
+				9824D8A22C7DAB2C00F9ED13 /* Embed Libraries */,
+				9824D8A32C7DAB8A00F9ED13 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = remove_background_mac;
+			productName = remove_background_mac;
+			productReference = 9824E6432C7C545000F9ED13 /* remove_background_mac.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9824E63B2C7C545000F9ED13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					9824E6422C7C545000F9ED13 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 9824E63E2C7C545000F9ED13 /* Build configuration list for PBXProject "remove_background_mac" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9824E63A2C7C545000F9ED13;
+			productRefGroup = 9824E6442C7C545000F9ED13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9824E6422C7C545000F9ED13 /* remove_background_mac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9824E6412C7C545000F9ED13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9824E64A2C7C545300F9ED13 /* Assets.xcassets in Resources */,
+				9824E64D2C7C545300F9ED13 /* Base in Resources */,
+				9824D9642C7EBDB000F9ED13 /* tf_u2netp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9824E63F2C7C545000F9ED13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9824D8412C7D6DD900F9ED13 /* TensorFlowModel.mm in Sources */,
+				9824E64F2C7C545300F9ED13 /* main.m in Sources */,
+				9824E6482C7C545000F9ED13 /* AppDelegate.m in Sources */,
+				9824E65B2C7C57CC00F9ED13 /* MainView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9824E64B2C7C545300F9ED13 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9824E64C2C7C545300F9ED13 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9824E6512C7C545400F9ED13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9824E6522C7C545400F9ED13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9824E6542C7C545400F9ED13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = remove_background_mac/remove_background_mac.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/remove_background_mac/libs/lib/";
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/remove_background_mac/libs/include/";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"$(PROJECT_DIR)/remove_background_mac/libs/lib/",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/remove_background_mac/libs/lib";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.remove-background-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		9824E6552C7C545400F9ED13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = remove_background_mac/remove_background_mac.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/remove_background_mac/libs/lib/";
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/remove_background_mac/libs/include/";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"$(PROJECT_DIR)/remove_background_mac/libs/lib/",
+				);
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/remove_background_mac/libs/lib";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "example.remove-background-mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9824E63E2C7C545000F9ED13 /* Build configuration list for PBXProject "remove_background_mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9824E6512C7C545400F9ED13 /* Debug */,
+				9824E6522C7C545400F9ED13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9824E6532C7C545400F9ED13 /* Build configuration list for PBXNativeTarget "remove_background_mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9824E6542C7C545400F9ED13 /* Debug */,
+				9824E6552C7C545400F9ED13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9824E63B2C7C545000F9ED13 /* Project object */;
+}
