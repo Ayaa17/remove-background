@@ -1,0 +1,11 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'remove_background_ios_obj-c' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for remove_background_ios_obj-c
+  pod 'TensorFlowLiteObjC'
+
+end

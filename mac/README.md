@@ -1,4 +1,4 @@
-# Remove background
+# Remove background for macOS with Tensorflow
 
 A macOS application using Objective-C with TensorFlow for machine learning.
 
@@ -12,7 +12,7 @@ A macOS application using Objective-C with TensorFlow for machine learning.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/your-repository.git
+   git clone https://github.com/Ayaa17/remove-background.git
    cd your-repository
    ```
 
